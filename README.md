@@ -75,7 +75,7 @@ sycm-cli 是一款读取生意参谋店铺数据的工具，可帮助你和 AI �
 | 交易与退款 | `sale-shop-list` `sale-item-list` `refund-item-list` `refund-all-list` `refund-origin-analysis` `item-refund` |
 | 客服 | `fetch-recent` `list` `detail` `reception-list` `sale-cs-list` `inquiry-loss-list` `slow-rsps-list` `evaluation-list` |
 | 直播与预热 | `live-guide-overview` `live-guide-trend` `preheating-metrics` |
-| 导出 Excel | `excel` `excel-tasks` |
+| 导出 Excel | `excel` `excel-tasks` `datafetch` |
 | 工具 | `doctor` `menu` `api` |
 
 字段的中文名和口径统一取自 `tb/platforms/sycm/fields.json`。字典中没有的字段会原样输出字段码，不推测中文名。
