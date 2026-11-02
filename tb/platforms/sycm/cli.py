@@ -1750,6 +1750,9 @@ def build_parser() -> argparse.ArgumentParser:
                            help="渲染全部 62 个字段（verified 按默认顺序分组 + candidate 追加到【未破译】组）")
     ht.set_defaults(func=cmd_home_table)
 
+    from . import datafetch
+    datafetch.register(sp)
+
     return p
 
 
