@@ -433,7 +433,7 @@ scripts/sycm.sh datafetch download 6758965 --out /tmp/reports --force
 
 # 按「渠道/域/维度/数据末月」分层归档（推荐长期使用）
 scripts/sycm.sh datafetch download 店铺-整体-日 店铺-关键词-日 \
-  --tree ~/Documents/RivenCode/iqair_data_source --channel tmall
+  --tree /Volumes/RivenCode/iqair_data_source --channel tmall
 ```
 
 `--tree` 的目录规则：全部用「中文_英文」目录名，依次是渠道、业务域、维度、粒度、年月：

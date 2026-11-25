@@ -312,7 +312,7 @@ def register(sp: argparse._SubParsersAction) -> None:
     where = dl.add_mutually_exclusive_group()
     where.add_argument("--out", help=f"平铺输出目录（默认 {DEFAULT_OUT}）")
     where.add_argument("--tree", metavar="根目录",
-                       help="按 <中文_英文渠道>/<域>/<维度>/<粒度>/<年_月> 分层归档，如 --tree ~/Documents/RivenCode/iqair_data_source")
+                       help="按 <中文_英文渠道>/<域>/<维度>/<粒度>/<年_月> 分层归档，如 --tree /Volumes/RivenCode/iqair_data_source")
     dl.add_argument("--channel", default=DEFAULT_CHANNEL,
                     help=f"渠道代码，用于目录第一层和文件名前缀（默认 {DEFAULT_CHANNEL}，目录显示为「天猫_tmall」）")
     dl.add_argument("--force", action="store_true", help="已存在也重新下载")
